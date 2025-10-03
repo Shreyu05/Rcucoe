@@ -1,13 +1,15 @@
+import React from "react";
 import { Card, CardContent } from "./ui/card";
-import { Mail, Phone, MapPin, Instagram, Linkedin, Twitter } from "lucide-react";
+import { Mail, Phone, MapPin, Instagram, Linkedin } from "lucide-react";
+import { XIcon } from "./XIcon";
 
 const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    value: "rcucoe@universalcollege.edu.in",
+    value: "rc.ucoe@universal.edu.in",
     description: "Reach out to us for inquiries",
-    link: "mailto:rcucoe@universalcollege.edu.in",
+    link: "mailto:rc.ucoe@universal.edu.in",
   },
   {
     icon: Phone,
@@ -39,16 +41,20 @@ const contactInfo = [
     description: "Connect with us professionally",
     colors: "from-blue-500 to-blue-600",
     hoverColors: "from-blue-600 to-blue-700",
-    link: "https://www.linkedin.com/company/rcucoe-official",
+    link: "https://www.linkedin.com/company/rotaract-club-of-universal-college-of-engineering-rid-3141/posts/?feedView=all",
   },
   {
-    icon: Twitter,
-    title: "Twitter",
+    icon: XIcon,
+    title: "X",
     value: "@rcucoe_official", 
     description: "Follow us for quick updates",
-    colors: "from-sky-400 to-blue-500",
-    hoverColors: "from-sky-500 to-blue-600",
-    link: "https://twitter.com/rcucoe_official",
+    colors: "from-black to-black",
+    hoverColors: "from-gray-900 to-black",
+    // Force solid black background and glow for reliability
+    bgClass: "bg-black",
+    glowClass: "bg-black",
+    iconColor: "text-white",
+    link: "https://x.com/rcucoe2526?t=se_GRj2a5AQFGoqhgeA-Zg&s=08",
   },
 ];
 
@@ -76,6 +82,18 @@ export function Contact() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {contactInfo.map((info, index) => {
               const Icon = info.icon;
+              const isX = info.title === 'X';
+              const glowClass = info.glowClass
+                ? info.glowClass
+                : `bg-gradient-to-r ${info.colors || 'from-blue-400 to-purple-400'}`;
+              const bgCircleClass = info.bgClass
+                ? info.bgClass
+                : `bg-gradient-to-r ${info.colors || 'from-blue-500 to-purple-600'}`;
+              const iconColor = info.iconColor || 'text-white';
+              // Inline fallback styles (avoid React type to prevent TS namespace errors)
+              const circleStyle: any = info.bgClass === 'bg-black' ? { backgroundColor: '#000' } : undefined;
+              const glowStyle: any = info.glowClass === 'bg-black' ? { backgroundColor: '#000' } : undefined;
+              const iconStyle: any = info.iconColor === 'text-white' ? { color: '#fff' } : undefined;
               const CardInner = (
                 <Card className="border-0 shadow-lg bg-white/70 backdrop-blur-sm hover:shadow-2xl transition-all duration-500 hover:scale-105 relative overflow-hidden group">
                   {/* Card background decoration */}
@@ -83,10 +101,23 @@ export function Contact() {
                   <CardContent className="p-6 relative z-10">
                     <div className="text-center space-y-4">
                       <div className="relative">
-                        <div className={`absolute inset-0 bg-gradient-to-r ${info.colors || 'from-blue-400 to-purple-400'} rounded-full blur opacity-20 group-hover:opacity-40 transition-opacity`}></div>
-                        <div className={`relative w-16 h-16 bg-gradient-to-r ${info.colors || 'from-blue-500 to-purple-600'} rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:scale-110 transition-transform duration-300`}>
-                          <Icon className="h-8 w-8 text-white" />
-                        </div>
+                        {isX ? (
+                          <>
+                            <div className="absolute inset-0 rounded-full blur opacity-20 group-hover:opacity-40 transition-opacity z-0" style={{ backgroundColor: '#000' }}></div>
+                            <div className="relative w-16 h-16 rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:scale-110 transition-transform duration-300 z-10" style={{ backgroundColor: '#000' }}>
+                              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" fill="#ffffff"/>
+                              </svg>
+                            </div>
+                          </>
+                        ) : (
+                          <>
+                            <div className={`absolute inset-0 ${glowClass} rounded-full blur opacity-20 group-hover:opacity-40 transition-opacity`} style={glowStyle}></div>
+                            <div className={`relative w-16 h-16 ${bgCircleClass} rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:scale-110 transition-transform duration-300`} style={circleStyle}>
+                              <Icon className={`h-8 w-8 ${iconColor}`} style={iconStyle} />
+                            </div>
+                          </>
+                        )}
                       </div>
                       <div>
                         <h4 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">{info.title}</h4>
