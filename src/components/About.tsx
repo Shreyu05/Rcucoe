@@ -78,7 +78,7 @@ export function About() {
                 <div className="relative group overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
                   <div className="absolute inset-0 bg-gradient-to-t from-blue-600/20 to-transparent z-10"></div>
                   <ImageWithFallback
-                    src="https://images.unsplash.com/photo-1709100450223-e8333fa09988?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyb3RhcnklMjBjbHViJTIwY29tbXVuaXR5JTIwc2VydmljZXxlbnwxfHx8fDE3NTg5NTc5OTF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                    src="https://i.postimg.cc/15XY04Tz/Whats-App-Image-2026-03-25-at-10-17-08-PM.jpg"
                     alt="Community service activities"
                     className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
                   />
@@ -86,7 +86,7 @@ export function About() {
                 <div className="relative group overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
                   <div className="absolute inset-0 bg-gradient-to-t from-purple-600/20 to-transparent z-10"></div>
                   <ImageWithFallback
-                    src="https://images.unsplash.com/photo-1560220604-1985ebfe28b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2xsZWdlJTIwc3R1ZGVudHMlMjB2b2x1bnRlZXJpbmd8ZW58MXx8fHwxNzU4OTU3OTkxfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                    src="https://i.postimg.cc/VvCDJZ4K/Whats-App-Image-2026-03-25-at-10-25-48-PM.jpg"
                     alt="Students volunteering"
                     className="w-full h-32 object-cover transition-transform duration-300 group-hover:scale-110"
                   />
@@ -96,7 +96,7 @@ export function About() {
                 <div className="relative group overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
                   <div className="absolute inset-0 bg-gradient-to-t from-green-600/20 to-transparent z-10"></div>
                   <ImageWithFallback
-                    src="https://images.unsplash.com/photo-1652811435172-bf8bbe203469?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb21tdW5pdHklMjBzZXJ2aWNlJTIwdm9sdW50ZWVyc3xlbnwxfHx8fDE3NTg5NTc5OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                    src="https://i.postimg.cc/zvLNQN7K/Whats-App-Image-2026-03-25-at-11-08-17-PM.jpg"
                     alt="Community volunteers"
                     className="w-full h-32 object-cover transition-transform duration-300 group-hover:scale-110"
                   />
@@ -104,7 +104,7 @@ export function About() {
                 <div className="relative group overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
                   <div className="absolute inset-0 bg-gradient-to-t from-blue-600/20 to-transparent z-10"></div>
                   <ImageWithFallback
-                    src="https://images.unsplash.com/photo-1596496356933-9b6e0b186b88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlZHVjYXRpb25hbCUyMHdvcmtzaG9wJTIwc3R1ZGVudHN8ZW58MXx8fHwxNzU4OTU3OTkyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                    src="https://i.postimg.cc/50Q171nh/Whats-App-Image-2026-03-25-at-11-31-57-PM.jpg"
                     alt="Educational workshops"
                     className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
                   />

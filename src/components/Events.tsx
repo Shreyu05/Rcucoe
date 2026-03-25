@@ -37,45 +37,45 @@ const upcomingEvents = [
 
 const pastEvents = [
   {
-    title: "Environmental Conservation Drive",
-    date: "January 15, 2025",
-    time: "8:00 AM - 5:00 PM",
-    location: "City Forest Area",
-    participants: "75 volunteers",
-    description: "Tree plantation and environmental awareness campaign with local schools.",
-    image: "https://images.unsplash.com/photo-1703012349431-95c3304d098f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cmVlJTIwcGxhbnRpbmclMjBlbnZpcm9ubWVudGFsfGVufDF8fHx8MTc1ODk3MjE1M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    title: "Baithak",
+    date: "January 31, 2026",
+    time: "11 am Onwards",
+    location: "Evershine's Dream Park,Thakur Village,Kandivali (E)",
+    participants: "25 Members",
+    description: "Relive your childhood memories and sing out your heart.",
+    image: "https://i.postimg.cc/T2kqq6BS/Whats-App-Image-2026-03-25-at-11-38-06-PM.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1703012349431-95c3304d098f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cmVlJTIwcGxhbnRpbmclMjBlbnZpcm9ubWVudGFsfGVufDF8fHx8MTc1ODk3MjE1M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      "https://images.unsplash.com/photo-1758599669062-13f35df6b3ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb21tdW5pdHklMjBzZXJ2aWNlJTIwdm9sdW50ZWVycyUyMGdyb3VwfGVufDF8fHx8MTc1ODk3MjE0NXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      "https://images.unsplash.com/photo-1545886082-e66c6b9e011a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b3V0aCUyMGdyb3VwJTIwYWN0aXZpdGllc3xlbnwxfHx8fDE3NTg5NzIxNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      "https://i.postimg.cc/Tw0SJsXH/Screenshot-2026-03-25-222258.png",
+      "https://i.postimg.cc/qMPmyr3r/Whats-App-Image-2026-03-25-at-11-33-20-PM.jpg",
+      "https://i.postimg.cc/C5W4GCdW/Whats-App-Image-2026-03-25-at-11-33-20-PM-(1).jpg"
     ]
   },
   {
-    title: "Youth Empowerment Workshop",
-    date: "December 20, 2024",
-    time: "1:00 PM - 6:00 PM",
-    location: "University Auditorium",
-    participants: "45 attendees",
-    description: "Skills development workshop focused on career guidance and personality development.",
-    image: "https://images.unsplash.com/photo-1733758283615-224f76ab0792?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3b3Jrc2hvcCUyMHN0dWRlbnRzJTIwbGVhcm5pbmd8ZW58MXx8fHwxNzU4OTcyMTQ4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    title: "The Humble Heart",
+    date: "January 25, 2026",
+    time: "8:30 PM - 12:30 PM",
+    location: "Gurudwara, Vasai West",
+    participants: "20 attendees",
+    description: "Assisting in food preparation, vegetable cutting, and serving Langar.",
+    image: "https://i.postimg.cc/3x6Ddr4s/Whats-App-Image-2026-03-25-at-11-38-21-PM-(1).jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1733758283615-224f76ab0792?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3b3Jrc2hvcCUyMHN0dWRlbnRzJTIwbGVhcm5pbmd8ZW58MXx8fHwxNzU4OTcyMTQ4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      "https://images.unsplash.com/photo-1733758283615-224f76ab0792?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlZHVjYXRpb25hbCUyMHNlbWluYXIlMjBjb2xsZWdlfGVufDF8fHx8MTc1ODk3MjE1OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      "https://images.unsplash.com/photo-1545886082-e66c6b9e011a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b3V0aCUyMGdyb3VwJTIwYWN0aXZpdGllc3xlbnwxfHx8fDE3NTg5NzIxNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      "https://i.postimg.cc/fR6JMHpK/Whats-App-Image-2026-03-25-at-11-44-11-PM.jpg",
+      "https://i.postimg.cc/9QqQgd0b/Whats-App-Image-2026-03-25-at-11-44-23-PM.jpg",
+      "https://i.postimg.cc/rsm81W79/Whats-App-Image-2026-03-25-at-11-43-50-PM.jpg"
     ]
-  },
+  },  
   {
-    title: "Charity Fundraiser",
-    date: "November 28, 2024",
-    time: "6:00 PM - 10:00 PM",
-    location: "College Grounds",
-    participants: "200+ attendees",
-    description: "Cultural night and fundraising event for supporting underprivileged children's education.",
-    image: "https://images.unsplash.com/photo-1724167924357-2d5febf3f931?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaGFyaXR5JTIwZnVuZHJhaXNpbmclMjBldmVudHxlbnwxfHx8fDE3NTg5NTA3MjR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    title: "Snap & Seek",
+    date: "January 10, 2026",
+    time: "12:00 PM - 02:00 PM",
+    location: "Sky City Mall, Borivali",
+    participants: "30 Members",
+    description: "Solve Clues. Move Floors. Capture Proof",
+    image: "https://i.postimg.cc/mDFxBjxX/Whats-App-Image-2026-03-25-at-11-38-35-PM.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1724167924357-2d5febf3f931?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaGFyaXR5JTIwZnVuZHJhaXNpbmclMjBldmVudHxlbnwxfHx8fDE3NTg5NTA3MjR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      "https://images.unsplash.com/photo-1758599669062-13f35df6b3ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb21tdW5pdHklMjBzZXJ2aWNlJTIwdm9sdW50ZWVycyUyMGdyb3VwfGVufDF8fHx8MTc1ODk3MjE0NXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      "https://images.unsplash.com/photo-1545886082-e66c6b9e011a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b3V0aCUyMGdyb3VwJTIwYWN0aXZpdGllc3xlbnwxfHx8fDE3NTg5NzIxNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      "https://i.postimg.cc/fRW6JDnd/Whats-App-Image-2026-03-25-at-11-41-58-PM.jpg",
+      "https://i.postimg.cc/c1QjhrdB/Whats-App-Image-2026-03-25-at-11-42-05-PM.jpg",
+      "https://i.postimg.cc/rwzQBm27/Whats-App-Image-2026-03-25-at-11-42-29-PM.jpg"
     ]
   }
 ];
